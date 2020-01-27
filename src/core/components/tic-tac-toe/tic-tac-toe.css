@@ -1,0 +1,98 @@
+.ttt-box{
+    
+}
+
+.ttt-box:hover > .ttt-box-mark {
+    content: 'X';
+    
+}
+
+
+.ttt-box-mark {
+    height: 100%;
+}
+
+
+
+.diagonal1{
+    width: 398px;
+    height: 120px;
+    position: absolute;
+    left: 760px;
+    top: 238px;
+    transform: rotate(37deg);
+    border: 15px solid red;
+    border-radius: 50px;
+}
+
+.diagonal2{
+    width: 398px;
+    height: 120px;
+    position: absolute;
+    left: 760px;
+    top: 238px;
+    transform: rotate(-37deg);
+    border: 15px solid red;
+    border-radius: 50px;
+}
+  
+.line1{
+    width: 350px;
+    height: 98px;
+    position: absolute;
+    left: 780px;
+    top: 170px;
+    border: 14px solid red;
+    border-radius: 50px;
+}
+
+.line2{
+    width: 350px;
+    height: 98px;
+    position: absolute;
+    left: 780px;
+    top: 253px;
+    border: 14px solid red;
+    border-radius: 50px;
+}
+
+.line3{
+    width: 360px;
+    height: 108px;
+    position: absolute;
+    left: 780px;
+    top: 327px;
+    border: 14px solid red;
+    border-radius: 50px;
+}
+
+.line4{
+    width: 120px;
+    height: 270px;
+    position: absolute;
+    left: 792px;
+    top: 165px;
+    border: 14px solid red;
+    border-radius: 50px;
+}
+
+.line5{
+    width: 120px;
+    height: 270px;
+    position: absolute;
+    left: 900px;
+    top: 165px;
+    border: 14px solid red;
+    border-radius: 50px;
+}
+
+.line6{
+    width: 120px;
+    height: 270px;
+    position: absolute;
+    left: 1008px;
+    top: 165px;
+    border: 14px solid red;
+    border-radius: 50px;
+}
+  
