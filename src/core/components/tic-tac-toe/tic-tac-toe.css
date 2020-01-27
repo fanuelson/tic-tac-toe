@@ -19,7 +19,7 @@
     height: 120px;
     position: absolute;
     left: 760px;
-    top: 238px;
+    top: 280px;
     transform: rotate(37deg);
     border: 15px solid red;
     border-radius: 50px;
@@ -30,7 +30,7 @@
     height: 120px;
     position: absolute;
     left: 760px;
-    top: 238px;
+    top: 280px;
     transform: rotate(-37deg);
     border: 15px solid red;
     border-radius: 50px;
@@ -41,7 +41,7 @@
     height: 98px;
     position: absolute;
     left: 780px;
-    top: 170px;
+    top: 210px;
     border: 14px solid red;
     border-radius: 50px;
 }
@@ -51,7 +51,7 @@
     height: 98px;
     position: absolute;
     left: 780px;
-    top: 253px;
+    top: 291px;
     border: 14px solid red;
     border-radius: 50px;
 }
@@ -61,7 +61,7 @@
     height: 108px;
     position: absolute;
     left: 780px;
-    top: 327px;
+    top: 370px;
     border: 14px solid red;
     border-radius: 50px;
 }
@@ -71,7 +71,7 @@
     height: 270px;
     position: absolute;
     left: 792px;
-    top: 165px;
+    top: 205px;
     border: 14px solid red;
     border-radius: 50px;
 }
@@ -81,7 +81,7 @@
     height: 270px;
     position: absolute;
     left: 900px;
-    top: 165px;
+    top: 205px;
     border: 14px solid red;
     border-radius: 50px;
 }
@@ -91,7 +91,7 @@
     height: 270px;
     position: absolute;
     left: 1008px;
-    top: 165px;
+    top: 205px;
     border: 14px solid red;
     border-radius: 50px;
 }
