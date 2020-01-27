@@ -4,7 +4,8 @@ module.exports = {
         "es6": true
     },
     "extends": [
-        "plugin:react/recommended"
+        "standard",
+        "standard-react"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -17,5 +18,6 @@ module.exports = {
         "react"
     ],
     "rules": {
+        
     }
 };
