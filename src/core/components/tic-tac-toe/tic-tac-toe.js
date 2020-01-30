@@ -9,6 +9,8 @@ import drawImage from '#imgs/draw-image.gif'
 
 import './tic-tac-toe.css'
 
+const boxesStyleWidth = 'sm:w-4/6 md:w-3/6 lg:w-1/3 xl:w-3/7'
+
 const TicTacToe = () => {
   const [state, dispatch] = useReducer(ticTacToeReducer, initialState)
 
@@ -50,6 +52,10 @@ const TicTacToe = () => {
     return winner === 3 ? 'Draw' : 'Congratulations'
   }
 
+  function getBoxesStyleWidth () {
+    return `flex h-20 mx-auto ${boxesStyleWidth}`
+  }
+
   return (
 
     <div>
@@ -59,7 +65,7 @@ const TicTacToe = () => {
         <h1 className='text-3xl inline'>Player 2 : O</h1>
       </div>
 
-      <div className='flex  w-1/6 h-20 mx-auto '>
+      <div className={getBoxesStyleWidth()}>
         <div className='ttt-box w-1/3 border-r-1 border-b-2 border-black text-6xl text-center' onClick={() => markPosition(0, 0)}>
           <OXComponent markType={state.matrix[0][0]} currentPlayer={state.currentPlayer} />
         </div>
@@ -70,7 +76,7 @@ const TicTacToe = () => {
           <OXComponent markType={state.matrix[0][2]} currentPlayer={state.currentPlayer} />
         </div>
       </div>
-      <div className='flex  w-1/6 h-20 mx-auto '>
+      <div className={getBoxesStyleWidth()}>
         <div className='w-1/3 border-r-1 border-b-2 border-black ' onClick={() => markPosition(1, 0)}>
           <OXComponent markType={state.matrix[1][0]} currentPlayer={state.currentPlayer} />
         </div>
@@ -81,7 +87,7 @@ const TicTacToe = () => {
           <OXComponent markType={state.matrix[1][2]} currentPlayer={state.currentPlayer} />
         </div>
       </div>
-      <div className='flex  w-1/6 h-20 mx-auto '>
+      <div className={getBoxesStyleWidth()}>
         <div className='w-1/3 border-r-1 border-black ' onClick={() => markPosition(2, 0)}>
           <OXComponent markType={state.matrix[2][0]} currentPlayer={state.currentPlayer} />
         </div>

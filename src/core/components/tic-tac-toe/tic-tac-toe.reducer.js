@@ -103,7 +103,7 @@ function determineWinnerOrDraw (matrix) {
 
     if (sequenceWinner.length === 2) {
       result.winner = sequenceWinner[0]
-      result.winnerDiagonal = getDiagonalClass(i)
+      // result.winnerDiagonal = getDiagonalClass(i)
     }
   }
 
